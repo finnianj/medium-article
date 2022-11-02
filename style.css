@@ -1,0 +1,71 @@
+body{
+  background: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+
+}
+
+#banner{
+  background-image: url(https://cdn2.jazztimes.com/2009/03/200203_017.jpg);
+  background-size: cover;
+  height: 400px;
+  background-position: 25% 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+  font-family:'Permanent Marker';
+  font-size: 40px;
+
+
+}
+
+.container{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.paragraph{
+  padding: 30px;
+  line-height: 40px;
+  font-size: 30px;
+  font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+
+p{
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.card{
+  background: white;
+  width: 70%;
+  margin:10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family:'Permanent Marker';
+}
+
+.header{
+  margin-left: 0px;
+}
+
+h3{
+  font-size: 50px;
+}
+
+@media (max-width: 900px) {
+  /* For a screen < 720px, this CSS will be read */
+  #banner {
+    font-size: 30px;
+  }
+}
